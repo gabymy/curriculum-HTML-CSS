@@ -8,7 +8,7 @@
 }
 
 .body {
-  background: rgb(241, 170, 232);
+  background: rgb(253, 220, 249);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -25,8 +25,8 @@
   background: rgb(241, 196, 232);
   display: grid;
   grid-template-columns: 1fr 2fr;
-  box-shadow: 0 35px 55px #860a7c(0, 0, 0, 1);
-  border: #e9c1e5 0.1px solid;
+  box-shadow: 0 35px 55px #f5c2f1;
+
 }
 
 .container .left_Side {
@@ -109,7 +109,7 @@
   display: inline-block;
   width: 30px;
   font-size: 18px;
-  color: #75848b;
+  color: #33383a;
 }
 
 .contactInfo ul li span {
@@ -123,7 +123,7 @@
 
 .contactInfo .education h5 {
   font-weight: 500;
-  color: #0d0d0e;
+  color: #33383a;
 }
 
 .contactInfo .education h4:nth-child(2) {
@@ -155,7 +155,7 @@
 
 .container .right_Side {
   position: relative;
-  background: #fff;
+  background: rgb(252, 248, 248);
   padding: 40px;
 }
 
@@ -168,14 +168,14 @@
 }
 
 .title2 {
-  color: #003147;
+  color: #051f2b;
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 10px;
 }
 
 p {
-  color: rgb(8, 8, 8);
+  color: rgb(20, 19, 19);
 }
 
 .about .box {
@@ -191,7 +191,7 @@ p {
 
 .about .box .year_company h5 {
   text-transform: uppercase;
-  color: #848c90;
+  color: #0d0d0e;
   font-weight: 600;
 
 }
@@ -242,14 +242,21 @@ p {
 
 .interest ul li {
   list-style: none;
-  color: #333;
+  color: rgb(37, 34, 34);
   font-weight: 500;
   margin: 10px 0;
 }
 
 .interest ul li .fa {
-  color: #03a9f4;
+  color: #ac189f;
   font-size: 18px;
+
+}
+
+.dibujo {
+  width: 50px;
+  height: 50px;
+
 
 }
 
